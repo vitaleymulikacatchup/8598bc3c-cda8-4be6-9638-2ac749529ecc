@@ -77,10 +77,6 @@ export default function Home() {
           logoSrc="/images/logo.svg"
           logoAlt="Webild Agency Logo"
           logoText="Webild Agency"
-          columns={[
-            { title: 'Products', items: [{ label: 'SaaS Solutions', onClick: () => {} }, { label: 'Custom Development', onClick: () => {} }] },
-            { title: 'Support', items: [{ label: 'Contact Us', onClick: () => {} }, { label: 'FAQ', onClick: () => {} }] },
-          ]}
           copyrightText="© 2023 Webild Agency"
           onPrivacyClick={() => { /* handle privacy click */ }}
         />
